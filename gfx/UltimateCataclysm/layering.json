@@ -2,10 +2,11 @@
   "variants": [
     {
       "context": [ "WALL" ],
+	  "append_variants": "_postup",
       "item_variants": [
-        { "item": "american_flag", "sprite": [ { "id": "american_flag_hoisted", "weight": 1 } ], "layer": 90, "offset_x": 0,
+        { "item": "american_flag", "layer": 90, "offset_x": 0,
           "offset_y": 0 },
-        { "item": "national_flag", "sprite": [ { "append_variants": "_postup", "id": "national_flag", "weight": 1 } ], "layer": 90 },
+        { "item": "national_flag", "layer": 90 },
         { "item": "lab_postit_bio", "sprite": [ { "id": "postit_01", "weight": 1 }, { "id": "postit_02", "weight": 1 }, { "id": "postit_03", "weight": 1 } ], "layer": 90 },
         {
           "item": "lab_postit_blob",
@@ -31,31 +32,28 @@
     },
     {
       "context": "f_flagpole",
+	  "append_variants": "_hoisted",
       "item_variants": [
         {
           "item": "american_flag",
-          "sprite": [ { "id": "american_flag_hoisted", "weight": 1 } ],
           "layer": 90,
           "offset_x": 16,
           "offset_y": -37
         },
         {
           "item": "pride_flag",
-          "sprite": [ { "id": "pride_flag_var_rainbow_pride_flag_hoisted", "weight": 1 } ],
           "layer": 90,
           "offset_x": 16,
           "offset_y": -37
         },
         {
           "item": "state_flag",
-          "sprite": [ { "id": "state_flag_var_massachusetts_flag_hoisted", "weight": 1 } ],
           "layer": 90,
           "offset_x": 16,
           "offset_y": -37
         },
 		{
           "item": "national_flag",
-          "sprite": [ { "append_variants": "_hoisted", "id": "national_flag", "weight": 1 } ],
           "layer": 90,
           "offset_x": 16,
           "offset_y": -37
@@ -64,31 +62,28 @@
     },
     {
       "context": "f_wooden_flagpole",
+	  "append_variants": "_hoisted",
       "item_variants": [
         {
           "item": "american_flag",
-          "sprite": [ { "id": "american_flag_hoisted", "weight": 1 } ],
           "layer": 90,
           "offset_x": 16,
           "offset_y": -37
         },
         {
           "item": "pride_flag",
-          "sprite": [ { "id": "pride_flag_var_rainbow_pride_flag_hoisted", "weight": 1 } ],
           "layer": 90,
           "offset_x": 16,
           "offset_y": -37
         },
         {
           "item": "state_flag",
-          "sprite": [ { "id": "state_flag_var_massachusetts_flag_hoisted", "weight": 1 } ],
           "layer": 90,
           "offset_x": 16,
           "offset_y": -37
         },
 		{
           "item": "national_flag",
-          "sprite": [ { "append_variants": "_hoisted", "id": "national_flag", "weight": 1 } ],
           "layer": 90,
           "offset_x": 16,
           "offset_y": -37
